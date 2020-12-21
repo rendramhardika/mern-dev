@@ -8,7 +8,7 @@ const port = process.env.PORT || 3000
 const app = express()
 
 var corsOption = {
-    origin:"https://local.mern.id"
+    origin:"http://localhost:3000"
 }
 
 app.use(cors(corsOption))
